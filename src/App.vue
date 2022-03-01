@@ -23,9 +23,9 @@
 <!--Form Component-->
 
 
-<!--Filter in Vue-->
-
-<!--Filter in Vue-->
+<!--API data in Vue-->
+<CryptocurrencyList/>
+<!--API data in Vue-->
 
 </div> 
 </template>
@@ -35,7 +35,8 @@
 // import DataBind from './components/DataBind.vue'
 // import PropsDef from './components/PropsDef.vue'
 // import ChildtoParent from './components/ChildtoParent.vue'
-import FormComponent from './components/FormComponent.vue'
+// import FormComponent from './components/FormComponent.vue'
+import CryptocurrencyList from './components/CryptocurrencyList.vue'
 export default {
   name: 'App',
   components: {
@@ -43,7 +44,8 @@ export default {
     // DataBind,
     // PropsDef
     // ChildtoParent
-    FormComponent
+    // FormComponent
+    CryptocurrencyList
 
   },
   data(){
